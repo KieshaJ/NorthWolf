@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+
+        <link rel="stylesheet" href="/css/main.css">
+
+        <link rel="stylesheet" href="/css/bootstrap.min.css">
+        <script src="/js/bootstrap.min.js"></script>
+
+        <script src="/js/mainContent.js"></script>
+        <script src="/js/footer.js"></script>
+
+        <title>NorthWolf</title>
+    </head>
+
+    <body>
+        <div class="background">
+            <div class="background-dimmer"></div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark p-4">
+            <a class="navbar-brand text-info" href="">
+                <strong>NorthWolf</strong>
+            </a>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link text-info" onclick="changeContent('home')">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-info" onclick="changeContent('features')">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-info" onclick="changeContent('pricing')">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-info" onclick="changeContent('contact')">Contact us</a>
+                    </li>
+                </ul>
+
+                <form class="form-inline my-2 my-lg-0 ml-auto">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+
+        <div class="row col-12 ml-auto mr-0 p-0 pl-1 pr-1">
+            <div id="main-content" class="container col-md-5 col-sm-12 p-5 content">
+                <h2 class="text-light">
+                    <strong>/ Home</strong>
+                </h2>
+                <hr class="bg-light">
+                <p class="text-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet animi cum dolores earum, eum itaque laudantium nesciunt non nulla omnis quos ratione repellat reprehenderit, sed temporibus. Excepturi id perferendis quibusdam?</p>
+            </div>
+
+            <div class="container col-md-5 col-sm-12 ml-2 p-5 text-center content content-right">
+                <h1 class="text-light">
+                    <strong>NorthWolf</strong>
+                    <hr class="bg-light">
+                </h1>
+            </div>
+        </div>
+
+        <div class="row p-0">
+            <div class="p-2 ml-0 mr-0 footer bg-dark text-center">
+                <a onclick="openFooter()" class="text-info text-center footer-link">
+                    <strong>&#x24B8; NorthWolf</strong>
+                </a>
+            </div>
+        </div>
+    </body>
+</html>
